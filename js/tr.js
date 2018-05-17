@@ -26,17 +26,6 @@ $(document).ready(function(){
   //   }, 500);
   // };
 
-  function collapseNavbar() {
-    if ($(".navbar").offset().top > 50) {
-      $(".navbar-fixed-top").addClass("top-nav-collapse");
-    } else {
-      $(".navbar-fixed-top").removeClass("top-nav-collapse");
-    }
-  }
-
-  $(window).scroll(collapseNavbar);
-  $(document).ready(collapseNavbar);
-
   $(function() {
     $('a.page-scroll').bind('click', function(event) {
       var $anchor = $(this);
@@ -53,5 +42,6 @@ $(document).ready(function(){
       $('.navbar-toggle:visible').click();
     }
   });
+
 
 });
