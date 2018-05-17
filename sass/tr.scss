@@ -20,7 +20,7 @@ html {
 }
 
 .bg-image {
-  height: 50vh;
+  height: 100vh;
   background-image: url(/images/bg5.png);
   background-position: center;
   background-size: cover;
@@ -32,6 +32,10 @@ html {
   margin: 0 !important;
 
   color: white;
+
+  @media(min-width: 768px) {
+    height: 50vh;
+  }
 }
 
 .sexy_line{
