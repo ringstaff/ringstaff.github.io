@@ -122,6 +122,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/fonts\/fontawesome-all.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/fontawesome-all.min.js",
+		"outputAbbreviatedPath": "\/fonts\/min\/fontawesome-all.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/images\/bg1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -173,6 +184,127 @@
 		"initialSize": 3.50921e+06,
 		"inputAbbreviatedPath": "\/images\/bg5.png",
 		"outputAbbreviatedPath": "\/images\/bg5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21763e+07,
+		"inputAbbreviatedPath": "\/images\/bg6.png",
+		"outputAbbreviatedPath": "\/images\/bg6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg6_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.17451e+07,
+		"inputAbbreviatedPath": "\/images\/bg6_1.png",
+		"outputAbbreviatedPath": "\/images\/bg6_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg6_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01476e+07,
+		"inputAbbreviatedPath": "\/images\/bg6_2.png",
+		"outputAbbreviatedPath": "\/images\/bg6_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg6_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.19044e+07,
+		"inputAbbreviatedPath": "\/images\/bg6_3.png",
+		"outputAbbreviatedPath": "\/images\/bg6_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg6_3_flip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.18848e+07,
+		"inputAbbreviatedPath": "\/images\/bg6_3_flip.png",
+		"outputAbbreviatedPath": "\/images\/bg6_3_flip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg_6_3_ff.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.18813e+07,
+		"inputAbbreviatedPath": "\/images\/bg_6_3_ff.png",
+		"outputAbbreviatedPath": "\/images\/bg_6_3_ff.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg_7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.20502e+06,
+		"inputAbbreviatedPath": "\/images\/bg_7.png",
+		"outputAbbreviatedPath": "\/images\/bg_7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg_7_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.96944e+06,
+		"inputAbbreviatedPath": "\/images\/bg_7_1.png",
+		"outputAbbreviatedPath": "\/images\/bg_7_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg_7_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.94036e+06,
+		"inputAbbreviatedPath": "\/images\/bg_7_2.png",
+		"outputAbbreviatedPath": "\/images\/bg_7_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg_7_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.46991e+06,
+		"inputAbbreviatedPath": "\/images\/bg_7_3.png",
+		"outputAbbreviatedPath": "\/images\/bg_7_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/me.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73533,
+		"inputAbbreviatedPath": "\/images\/me.jpg",
+		"outputAbbreviatedPath": "\/images\/me.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -19,51 +19,116 @@ html {
   height: 100%;
 }
 
+.img-me {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background-size: contain;
+  float: right;
+}
+
 .bg-image {
   height: 100vh;
-  background-image: url(/images/bg5.png);
+  background-image: url(/images/bg_7_3.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
-  -webkit-animation: background 20s ease-out infinite;
-  animation: background 20s ease-out infinite;
+  -webkit-animation: background 20s ease-in-out infinite;
+  animation: background 20s ease-in-out infinite;
 
   margin: 0 !important;
 
   color: white;
 
-  @media(min-width: 768px) {
-    height: 50vh;
-  }
+  color: $bg5;
+
+
 }
 
+.navbar {
+  color: white;
+
+  .navbar-brand {
+    font-size: 1.6em;
+    svg {
+      padding: 5px 0;
+    }
+  }
+}
+.lead-text {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  text-align: left;
+  line-height: 1.6em;
+
+  @media(min-width: 768px) {
+    bottom: 10%;
+    left: 10%;
+    line-height: 3em;
+  }
+}
 .sexy_line{
   display:block;
   border:none;
   height:1px;
   background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(rgba(255, 255, 255, .5)), to(rgba(255, 255, 255, 0)));
 }
+.contact {
+
+  font-size: 2em;
+  // position: absolute;
+  //
+  // bottom: 0;
+  // right: 0;
+  padding: 0 50px;
+  svg {
+    margin: 20px;
+    color: #999;
+    @media(min-width: 768px) {
+      margin: 45px;
+    }
+
+  }
+}
 
 h1 {
   font-size: 6em;
   font-weight: 1000;
+  line-height: .72em;
+
+  @media(min-width: 768px) {
+    font-size: 8em;
+    line-height: .72em;
+  }
 }
+
+.p-margin-top {
+  margin-top: 40px;
+}
+
 .lead {
   font-family: 'Kollektif', sans-serif;
   letter-spacing: 14px;
-  font-size: 3em;
+  font-size: 4em;
+
+  @media(min-width: 768px) {
+    font-size: 6em;
+
+  }
+
 }
+
 
 .normy {
-  font-family: 'Kollektif', sans-serif;
+  font-family: 'Kollektif-Italic', sans-serif;
   margin-top: 10px;
+  font-weight: normal;
 }
 
-$bg1: #3D348B;
-$bg2: #d06d2e;
-$bg3: #f8a604;
-$bg4: #FFBC42;
 
 @-webkit-keyframes background {
   0% { background-color: $bg1; }

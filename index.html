@@ -8,12 +8,12 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>T. Layne</title>
+    <title>T Layne</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-oi8o31xSQq8S0RpBcb4FaLB8LJi9AT8oIdmS1QldR8Ui7KUQjNAnDlJjp55Ba8FG" crossorigin="anonymous">
+    <script defer src="/fonts/fontawesome-all.min.js"></script>
 
     <!-- Custom styles for this template -->
     <link href="/css/tr.css?v=1.0.1" rel="stylesheet">
@@ -26,26 +26,65 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
-              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+              <!-- <h4 class="text-white">About Me</h4> -->
+              <p class="text-muted p-margin-top">
+                My name is Layne, and I'm a Software Engineer
+                born and living in Chattanooga, Tennessee.
+              </p>
+              <div class='img-me' style='background-image: url(/images/me.jpg)'></div>
+              <p class="text-muted">
+                I was 10 when I
+                started writing my first lines of code in BASIC on the
+                Commodore 64, creating simple text based adventure games.
+                That sparked a love for coding which never went away.
+              </p>
+              <p class="text-muted">
+                I also love writing and playing music, and have dreams of
+                building musical apps and games for kids and/or writing the
+                soundtrack to a really cool game. I love creating simple,
+                useful things, and I enjoy the process of problem solving and
+                different aspects of creativity it takes to get there.
+
+              </p>
             </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                <li><a href="#" class="text-white">Like on Facebook</a></li>
-                <li><a href="#" class="text-white">Email me</a></li>
-              </ul>
+            <div class="col-sm-4 offset-md-1 py-4 contact">
+              <!-- <h4 class="text-white">Contact</h4> -->
+              <a href="https://twitter.com/t_layne_ring" class="text-white">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.facebook.com/tlayne.ringstaff.3" class="text-white">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="mailto:" class="text-white">
+                <i class="fal fa-envelope-open"></i>
+              </a>
+              <!-- <ul class="list-unstyled">
+                <li><a href="https://twitter.com/t_layne_ring" class="text-white">
+                  <i class="fab fa-twitter"></i>
+                </a></li>
+                <li><a href="https://www.facebook.com/tlayne.ringstaff.3" class="text-white">
+                  <i class="fab fa-facebook-f"></i>
+                </a></li>
+                <li><a href="mailto:" class="text-white">
+                  <i class="fal fa-envelope-open"></i>
+                </a></li>
+              </ul> -->
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
+      <div class="navbar transparent navbar-dark fixed-top py-3">
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-            <strong>T. Layne</strong>
+            <i class="fal fa-user-astronaut"></i>
+            <strong>T Layne</strong>
           </a>
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -55,11 +94,16 @@
 
 
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-image">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1>T <br>Layne</h1>
+      <div class="col-md-5 p-lg-5 mx-auto my-5 lead-text">
+        <!-- <div class='div-rotate'></div> -->
+        <h1>T<br>Layne</h1>
+
+        <!-- <h1>T</h1>
+        <h2>Layne</h2> -->
         <p class="lead">Ringstaff</p>
+
         <span class='sexy_line'></span>
-        <p class="normy">Full-stack developer, designer, composer</p>
+        <p class="normy">software engineer, designer, composer</p>
         <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
       </div>
       <!-- <div class="col-md-5 p-lg-5 mx-auto my-5">

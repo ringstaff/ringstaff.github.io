@@ -9,6 +9,11 @@
   font-family: 'Kollektif';
   src: url('/fonts/Kollektif.ttf');
 }
+
+@font-face {
+  font-family: 'Kollektif-Italic';
+  src: url('/fonts/Kollektif-Italic.ttf');
+}
 $blue: #004E98;
 $red: #C0C0C0;
 $gold: #F4D06F;
@@ -19,3 +24,17 @@ $black: #000505;
 $grey: #444;
 $bg_color3: #EBEBEB;
 $white: #fff;
+
+
+//
+// $bg1: #3D348B;
+// $bg2: #d06d2e;
+// $bg3: #f8a604;
+// $bg4: #FFBC42;
+
+$bg1: #b4b4a8;
+$bg2: #33658A;
+$bg3: #2F4858;
+$bg4: #C32F27;
+
+$bg5: #b4b4a8;
