@@ -64,7 +64,10 @@ html {
   left: 5%;
   text-align: left;
   line-height: 1.6em;
-  text-shadow: -2px 1px rgba(255, 255, 255, .5);
+  // text-shadow: -2px 1px $ts2;
+  // -webkit-animation: ts 20s ease-in-out infinite;
+  // animation: background 20s ease-in-out infinite;
+
 
   @media(min-width: 768px) {
     bottom: 10%;
@@ -148,7 +151,13 @@ h1 {
   100% { background-color: $bg1; }
 }
 
-
+@-webkit-keyframes ts {
+  0% { text-shadow: -2px 1px $bg2; }
+  33% { text-shadow: -2px 1px $bg1; }
+  50% { text-shadow: -2px 1px $bg4; }
+  67% { text-shadow: -2px 1px $bg3; }
+  100% { text-shadow: -2px 1px $bg2; }
+}
 /*
  * navvy anim
  */
