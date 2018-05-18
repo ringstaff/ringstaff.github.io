@@ -43,5 +43,6 @@ $(document).ready(function(){
     }
   });
 
+  $('.navbar-toggler .fa-times').css('display', 'none');
 
 });

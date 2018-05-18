@@ -95,10 +95,14 @@ html {
   padding: 0 50px; }
   .contact svg {
     margin: 20px;
-    color: #999; }
+    color: #999;
+    transition: .4s ease-in; }
     @media (min-width: 768px) {
       .contact svg {
         margin: 45px; } }
+    .contact svg:hover {
+      color: white;
+      cursor: pointer; }
 
 h1 {
   font-size: 6em;
@@ -119,6 +123,29 @@ h1 {
   @media (min-width: 768px) {
     .lead {
       font-size: 6em; } }
+
+.navbar-toggler {
+  font-size: 2em;
+  border: none;
+  position: relative; }
+  .navbar-toggler svg {
+    transition: opacity .4s ease-out;
+    color: white; }
+  .navbar-toggler .fa-bars {
+    opacity: 0; }
+  .navbar-toggler .fa-times {
+    opacity: 1;
+    position: absolute;
+    right: 12px;
+    top: 0;
+    font-size: 1.25em; }
+  .navbar-toggler:focus {
+    outline: none; }
+
+.navbar-toggler.collapsed .fa-bars {
+  opacity: 1; }
+.navbar-toggler.collapsed .fa-times {
+  opacity: 0; }
 
 .normy {
   font-family: 'Kollektif-Italic', sans-serif;
