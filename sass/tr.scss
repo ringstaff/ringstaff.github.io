@@ -64,6 +64,7 @@ html {
   left: 5%;
   text-align: left;
   line-height: 1.6em;
+  text-shadow: -2px 1px rgba(255, 255, 255, .5);
 
   @media(min-width: 768px) {
     bottom: 10%;
@@ -127,6 +128,7 @@ h1 {
   font-family: 'Kollektif-Italic', sans-serif;
   margin-top: 10px;
   font-weight: normal;
+  text-shadow: none;
 }
 
 
