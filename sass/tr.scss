@@ -65,7 +65,7 @@ html {
   text-align: left;
   line-height: 1.6em;
   // text-shadow: -2px 1px $ts2;
-  // -webkit-animation: ts 20s ease-in-out infinite;
+  -webkit-animation: ts 20s ease-in-out infinite;
   // animation: background 20s ease-in-out infinite;
 
 
@@ -151,12 +151,19 @@ h1 {
   100% { background-color: $bg1; }
 }
 
+// @-webkit-keyframes ts {
+//   0% { text-shadow: -2px 1px $ts1; }
+//   33% { text-shadow: -2px 1px $bg2; }
+//   50% { text-shadow: -2px 1px $bg3; }
+//   67% { text-shadow: -2px 1px $bg4; }
+//   100% { text-shadow: -2px 1px $ts1; }
+// }
 @-webkit-keyframes ts {
-  0% { text-shadow: -2px 1px $bg2; }
-  33% { text-shadow: -2px 1px $bg1; }
-  50% { text-shadow: -2px 1px $bg4; }
-  67% { text-shadow: -2px 1px $bg3; }
-  100% { text-shadow: -2px 1px $bg2; }
+  0% { text-shadow: -2px 1px $ts1; }
+  33% { text-shadow: -2px 1px $ts2; }
+  50% { text-shadow: -2px 1px $ts2; }
+  67% { text-shadow: -2px 1px $ts2; }
+  100% { text-shadow: -2px 1px $ts1; }
 }
 /*
  * navvy anim

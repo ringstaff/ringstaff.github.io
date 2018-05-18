@@ -76,7 +76,8 @@ html {
   bottom: 10%;
   left: 5%;
   text-align: left;
-  line-height: 1.6em; }
+  line-height: 1.6em;
+  -webkit-animation: ts 20s ease-in-out infinite; }
   @media (min-width: 768px) {
     .lead-text {
       bottom: 10%;
@@ -149,15 +150,15 @@ h1 {
     background-color: #b4b4a8; } }
 @-webkit-keyframes ts {
   0% {
-    text-shadow: -2px 1px #33658A; }
+    text-shadow: -2px 1px rgba(255, 255, 255, 0.5); }
   33% {
-    text-shadow: -2px 1px #b4b4a8; }
+    text-shadow: -2px 1px rgba(255, 255, 255, 0); }
   50% {
-    text-shadow: -2px 1px #C32F27; }
+    text-shadow: -2px 1px rgba(255, 255, 255, 0); }
   67% {
-    text-shadow: -2px 1px #2F4858; }
+    text-shadow: -2px 1px rgba(255, 255, 255, 0); }
   100% {
-    text-shadow: -2px 1px #33658A; } }
+    text-shadow: -2px 1px rgba(255, 255, 255, 0.5); } }
 /*
  * navvy anim
  */
