@@ -76,19 +76,55 @@ html {
   bottom: 10%;
   left: 5%;
   text-align: left;
-  line-height: 1.6em;
+  line-height: 1em;
   -webkit-animation: ts 20s ease-in-out infinite; }
+  @media (min-width: 400px) {
+    .lead-text {
+      line-height: 1.6em; } }
   @media (min-width: 768px) {
     .lead-text {
       bottom: 10%;
       left: 10%;
       line-height: 3em; } }
-
-.sexy_line {
-  display: block;
-  border: none;
-  height: 1px;
-  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0))); }
+  .lead-text h1 {
+    font-size: 5.4em;
+    font-weight: 1000;
+    line-height: .72em; }
+    @media (min-width: 400px) {
+      .lead-text h1 {
+        font-size: 6em;
+        line-height: .72em; } }
+    @media (min-width: 768px) {
+      .lead-text h1 {
+        font-size: 8em; } }
+  .lead-text .lead {
+    font-family: 'Kollektif', sans-serif;
+    letter-spacing: 14px;
+    font-size: 3.4em; }
+    @media (min-width: 400px) {
+      .lead-text .lead {
+        font-size: 4em; } }
+    @media (min-width: 768px) {
+      .lead-text .lead {
+        font-size: 6em; } }
+  .lead-text .normy {
+    font-family: 'Kollektif-Italic', sans-serif;
+    margin-top: 10px;
+    font-weight: normal;
+    text-shadow: none; }
+  .lead-text .grad-line {
+    display: block;
+    border: none;
+    height: 1px;
+    background: transparent;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #fff, rgba(255, 255, 255, 0));
+    width: 300px; }
+    @media (min-width: 400px) {
+      .lead-text .grad-line {
+        width: 350px; } }
+    @media (min-width: 768px) {
+      .lead-text .grad-line {
+        width: 470px; } }
 
 .contact {
   font-size: 2em;
@@ -104,25 +140,8 @@ html {
       color: white;
       cursor: pointer; }
 
-h1 {
-  font-size: 6em;
-  font-weight: 1000;
-  line-height: .72em; }
-  @media (min-width: 768px) {
-    h1 {
-      font-size: 8em;
-      line-height: .72em; } }
-
 .p-margin-top {
   margin-top: 40px; }
-
-.lead {
-  font-family: 'Kollektif', sans-serif;
-  letter-spacing: 14px;
-  font-size: 4em; }
-  @media (min-width: 768px) {
-    .lead {
-      font-size: 6em; } }
 
 .navbar-toggler {
   font-size: 2em;
@@ -146,12 +165,6 @@ h1 {
   opacity: 1; }
 .navbar-toggler.collapsed .fa-times {
   opacity: 0; }
-
-.normy {
-  font-family: 'Kollektif-Italic', sans-serif;
-  margin-top: 10px;
-  font-weight: normal;
-  text-shadow: none; }
 
 @-webkit-keyframes background {
   0% {
@@ -179,10 +192,6 @@ h1 {
   0% {
     text-shadow: -2px 1px rgba(255, 255, 255, 0.5); }
   33% {
-    text-shadow: -2px 1px rgba(255, 255, 255, 0); }
-  50% {
-    text-shadow: -2px 1px rgba(255, 255, 255, 0); }
-  67% {
     text-shadow: -2px 1px rgba(255, 255, 255, 0); }
   100% {
     text-shadow: -2px 1px rgba(255, 255, 255, 0.5); } }
