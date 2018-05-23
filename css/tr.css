@@ -1,12 +1,15 @@
 @font-face {
   font-family: 'Kollektif-Bold';
   src: url("/fonts/Kollektif-Bold.ttf"); }
+
 @font-face {
   font-family: 'Kollektif';
   src: url("/fonts/Kollektif.ttf"); }
+
 @font-face {
   font-family: 'Kollektif-Italic';
   src: url("/fonts/Kollektif-Italic.ttf"); }
+
 .container {
   max-width: 960px; }
 
@@ -27,6 +30,7 @@
   .flex-md-equal > * {
     -ms-flex: 1;
     flex: 1; } }
+
 .overflow-hidden {
   overflow: hidden; }
 
@@ -63,6 +67,9 @@ html {
   margin: 0 !important;
   color: white;
   color: #b4b4a8; }
+
+.sleepy-link {
+  width: 300px; }
 
 .navbar {
   color: white; }
@@ -163,6 +170,7 @@ html {
 
 .navbar-toggler.collapsed .fa-bars {
   opacity: 1; }
+
 .navbar-toggler.collapsed .fa-times {
   opacity: 0; }
 
@@ -177,6 +185,7 @@ html {
     background-color: #C32F27; }
   100% {
     background-color: #b4b4a8; } }
+
 @keyframes background {
   0% {
     background-color: #b4b4a8; }
@@ -188,6 +197,7 @@ html {
     background-color: #C32F27; }
   100% {
     background-color: #b4b4a8; } }
+
 @-webkit-keyframes ts {
   0% {
     text-shadow: -2px 1px rgba(255, 255, 255, 0.5); }
@@ -195,6 +205,7 @@ html {
     text-shadow: -2px 1px rgba(255, 255, 255, 0); }
   100% {
     text-shadow: -2px 1px rgba(255, 255, 255, 0.5); } }
+
 /*
  * navvy anim
  */
