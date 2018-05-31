@@ -43,6 +43,7 @@ $(document).ready(function(){
   if(isApp === "true") {
     $('.bg-img').hide();
     $('.header-tohide').hide();
+    $('.fader').hide();
 
   }
 
