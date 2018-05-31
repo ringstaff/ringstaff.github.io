@@ -507,15 +507,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sleepystars\/css\/tr.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sleepystars\/css\/tr.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/sleepystars\/css\/utils.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -955,22 +946,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sleepystars\/sass\/_product.scss",
 		"outputAbbreviatedPath": "\/sleepystars\/css\/_product.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sleepystars\/sass\/_variables.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sleepystars\/sass\/_variables.scss",
-		"outputAbbreviatedPath": "\/sleepystars\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

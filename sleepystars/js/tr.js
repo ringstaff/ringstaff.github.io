@@ -1,30 +1,32 @@
 
 $(document).ready(function(){
 
-  // var loadHome = function() {
-  //   setTimeout(function() {
-  //     $('.show-1').removeClass('invisible');
-  //     document.getElementById("hideAll").style.display = "none";
-  //
-  //     setTimeout(function() {
-  //
-  //       $('.show-2').removeClass('invisible');
-  //       setTimeout(function() {
-  //
-  //         $('.show-3').removeClass('invisible');
-  //         setTimeout(function() {
-  //
-  //           $('.show-4').removeClass('invisible');
-  //           setTimeout(function() {
-  //
-  //             $('.show-5').removeClass('invisible');
-  //
-  //           }, 500);
-  //         }, 1500);
-  //       }, 1000);
-  //     }, 1000);
-  //   }, 500);
-  // };
+  var loadHome = function() {
+    setTimeout(function() {
+      $('.show-1').removeClass('invisible');
+
+      $('#hideAll').css('opacity', 0);
+      // document.getElementById("hideAll").style.display = "none";
+
+      setTimeout(function() {
+
+        $('.show-2').removeClass('invisible');
+        setTimeout(function() {
+
+          $('.show-3').removeClass('invisible');
+          setTimeout(function() {
+
+            $('.show-4').removeClass('invisible');
+            setTimeout(function() {
+
+              $('.show-5').removeClass('invisible');
+
+            }, 500);
+          }, 1500);
+        }, 1000);
+      }, 1000);
+    }, 500);
+  };
 
 
   function getQueryVariable(variable)
@@ -80,5 +82,5 @@ $(document).ready(function(){
   });
 
 
-
+  loadHome();
 });
