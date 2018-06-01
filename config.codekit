@@ -177,6 +177,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/spaceman.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10933,
+		"inputAbbreviatedPath": "\/images\/spaceman.png",
+		"outputAbbreviatedPath": "\/images\/spaceman.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ss_logo2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -506,6 +517,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/sleepystars\/css\/tr.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sleepystars\/css\/tr.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/sleepystars\/css\/utils.css": {
 		"fileType": 16,
@@ -904,34 +924,43 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sleepystars\/js\/min copy\/redback-min.js": {
+	"\/sleepystars\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sleepystars\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/sleepystars\/js\/min\/redback-min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sleepystars\/js\/min copy\/redback-min.js",
-		"outputAbbreviatedPath": "\/sleepystars\/js\/min copy\/min\/redback-min-min.js",
+		"inputAbbreviatedPath": "\/sleepystars\/js\/min\/redback-min.js",
+		"outputAbbreviatedPath": "\/sleepystars\/js\/min\/min\/redback-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/sleepystars\/js\/min copy\/tr-min.js": {
+	"\/sleepystars\/js\/min\/tr-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sleepystars\/js\/min copy\/tr-min.js",
-		"outputAbbreviatedPath": "\/sleepystars\/js\/min copy\/min\/tr-min-min.js",
+		"inputAbbreviatedPath": "\/sleepystars\/js\/min\/tr-min.js",
+		"outputAbbreviatedPath": "\/sleepystars\/js\/min\/min\/tr-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/sleepystars\/js\/tr copy.js": {
+	"\/sleepystars\/js\/tr.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sleepystars\/js\/tr copy.js",
-		"outputAbbreviatedPath": "\/sleepystars\/js\/min\/tr copy-min.js",
+		"inputAbbreviatedPath": "\/sleepystars\/js\/tr.js",
+		"outputAbbreviatedPath": "\/sleepystars\/js\/min\/tr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -946,6 +975,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sleepystars\/sass\/_product.scss",
 		"outputAbbreviatedPath": "\/sleepystars\/css\/_product.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sleepystars\/sass\/_variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sleepystars\/sass\/_variables.scss",
+		"outputAbbreviatedPath": "\/sleepystars\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

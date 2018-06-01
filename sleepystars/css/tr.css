@@ -66,6 +66,18 @@ body {
 header {
   margin-bottom: 2rem; }
 
+.donate {
+  margin: 100px auto; }
+
+.navbar-brand {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+  font-size: 1.6em; }
+  .navbar-brand svg {
+    margin: 0 10px; }
+
 .cover-container {
   max-width: 42em; }
 
