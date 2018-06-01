@@ -226,11 +226,66 @@
 		"oAP": "\/fonts\/Kollektif.ttf",
 		"oF": 0
 		},
+	"\/images\/bg_this_.png": {
+		"ft": 32768,
+		"iS": 729205,
+		"oA": 0,
+		"oAP": "\/images\/bg_this_.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ic_launcher.png": {
+		"ft": 32768,
+		"iS": 11583,
+		"oA": 0,
+		"oAP": "\/images\/ic_launcher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/me.jpg": {
+		"ft": 16384,
+		"iS": 73533,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/me.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/sky_bg_big.png": {
 		"ft": 32768,
 		"iS": 1852916,
 		"oA": 0,
 		"oAP": "\/images\/sky_bg_big.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/spaceman.png": {
+		"ft": 32768,
+		"iS": 10933,
+		"oA": 0,
+		"oAP": "\/images\/spaceman.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ss_logo2.png": {
+		"ft": 32768,
+		"iS": 41072,
+		"oA": 0,
+		"oAP": "\/images\/ss_logo2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
