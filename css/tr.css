@@ -1,15 +1,12 @@
 @font-face {
   font-family: 'Kollektif-Bold';
   src: url("/fonts/Kollektif-Bold.ttf"); }
-
 @font-face {
   font-family: 'Kollektif';
   src: url("/fonts/Kollektif.ttf"); }
-
 @font-face {
   font-family: 'Kollektif-Italic';
   src: url("/fonts/Kollektif-Italic.ttf"); }
-
 .container {
   max-width: 960px; }
 
@@ -30,7 +27,6 @@
   .flex-md-equal > * {
     -ms-flex: 1;
     flex: 1; } }
-
 .overflow-hidden {
   overflow: hidden; }
 
@@ -46,6 +42,36 @@ html {
   overflow-x: hidden;
   max-width: 100%;
   height: 100%; }
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s; }
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  margin-top: 30px; }
+  .overlay-content .container, .overlay-content .row {
+    position: relative; }
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  display: block;
+  transition: 0.3s; }
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1; }
 
 .img-me {
   background-repeat: no-repeat;
@@ -150,30 +176,6 @@ html {
 .p-margin-top {
   margin-top: 40px; }
 
-.navbar-toggler {
-  font-size: 2em;
-  border: none;
-  position: relative; }
-  .navbar-toggler svg {
-    transition: opacity .4s ease-out;
-    color: white; }
-  .navbar-toggler .fa-bars {
-    opacity: 0; }
-  .navbar-toggler .fa-times {
-    opacity: 1;
-    position: absolute;
-    right: 12px;
-    top: 0;
-    font-size: 1.25em; }
-  .navbar-toggler:focus {
-    outline: none; }
-
-.navbar-toggler.collapsed .fa-bars {
-  opacity: 1; }
-
-.navbar-toggler.collapsed .fa-times {
-  opacity: 0; }
-
 @-webkit-keyframes background {
   0% {
     background-color: #b4b4a8; }
@@ -185,7 +187,6 @@ html {
     background-color: #C32F27; }
   100% {
     background-color: #b4b4a8; } }
-
 @keyframes background {
   0% {
     background-color: #b4b4a8; }
@@ -197,7 +198,6 @@ html {
     background-color: #C32F27; }
   100% {
     background-color: #b4b4a8; } }
-
 @-webkit-keyframes ts {
   0% {
     text-shadow: -2px 1px rgba(255, 255, 255, 0.5); }
@@ -205,19 +205,35 @@ html {
     text-shadow: -2px 1px rgba(255, 255, 255, 0); }
   100% {
     text-shadow: -2px 1px rgba(255, 255, 255, 0.5); } }
+.nav-container {
+  transition: opacity .3s ease-in; }
 
 /*
  * navvy anim
  */
 .navbar .navbar-toggle .icon-bar {
-  background-color: #000505; }
+  background-color: white;
+  display: block;
+  width: 34px;
+  height: 3px;
+  border-radius: 1px;
+  margin-top: 6px; }
 
 .navbar-toggle {
   border: none;
-  margin-top: 15px; }
+  font-size: 2em;
+  border: none;
+  cursor: pointer;
+  display: block;
+  text-align: right;
+  background-color: transparent;
+  border: none;
+  position: relative; }
+  .navbar-toggle:focus {
+    outline: none; }
 
 .navbar-toggle .icon-bar {
-  width: 22px;
+  width: 32px;
   transition: all 0.2s; }
 
 .navbar-toggle .top-bar {

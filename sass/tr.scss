@@ -20,6 +20,44 @@ html {
   height: 100%;
 }
 
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  // text-align: center;
+  margin-top: 30px;
+
+  .container, .row {
+    position: relative;
+  }
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
 .img-me {
   background-repeat: no-repeat;
   background-position: 50%;
@@ -167,41 +205,9 @@ $smallest-width: 400px;
 
 
 .navbar-toggler {
-  font-size: 2em;
-  border: none;
-  svg {
-    transition: opacity .4s ease-out;
-    color: white;
-  }
-  position: relative;
-  .fa-bars {
-    // display: none;
-    opacity: 0;
-  }
-  .fa-times {
-    // display: block;
-    opacity: 1;
-    position: absolute;
-    right: 12px;
-    top: 0;
-    font-size: 1.25em;
-  }
 
-  &:focus {
-    outline: none;
-  }
 }
 
-.navbar-toggler.collapsed {
-  .fa-bars {
-    // display: block;
-    opacity: 1;
-  }
-  .fa-times {
-    // display: none;
-    opacity: 0;
-  }
-}
 
 
 
@@ -236,19 +242,40 @@ $smallest-width: 400px;
   100% { text-shadow: -2px 1px $ts1; }
 }
 
+.nav-container {
+  transition: opacity .3s ease-in;
+}
 
 /*
  * navvy anim
  */
 .navbar .navbar-toggle .icon-bar {
-  background-color: $eggshell;
+  background-color: white;
+  display: block;
+  width: 34px;
+  height: 3px;
+  border-radius: 1px;
+  margin-top: 6px;
 }
 .navbar-toggle {
   border: none;
-  margin-top: 15px;
+  font-size: 2em;
+  border: none;
+  cursor:pointer;
+  display: block;
+  text-align: right;
+  background-color: transparent;
+  border: none;
+
+  position: relative;
+
+  &:focus {
+    outline: none;
+  }
+  // margin-top: 15px;
 }
 .navbar-toggle .icon-bar {
-  width: 22px;
+  width: 32px;
   transition: all 0.2s;
 }
 .navbar-toggle .top-bar {

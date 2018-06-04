@@ -43,6 +43,27 @@ $(document).ready(function(){
     }
   });
 
-  $('.navbar-toggler .fa-times').css('display', 'none');
+  var nav = document.getElementById("myNav");
+  var navContainer = $(nav).find('.container');
+  var isNavOpen = false;
+
+  function openNav() {
+    if(isNavOpen) {
+      nav.style.width = "0%";
+      navContainer.css('opacity', 0);
+      $('.navbar-toggle').addClass('collapsed');
+      isNavOpen = false;
+    } else {
+      nav.style.width = "100%";
+      navContainer.css('opacity', 1);
+      $('.navbar-toggle').removeClass('collapsed');
+      isNavOpen = true;
+    }
+
+  }
+  navContainer.css('opacity', 0);
+  $('.navbar-toggle').click(function() {
+    openNav();
+  });
 
 });
