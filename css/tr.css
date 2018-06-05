@@ -116,7 +116,7 @@ html {
     text-align: center;
     padding: 0;
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     left: 0; }
     @media (min-height: 650px) {
       .nav .contact {
