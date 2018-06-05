@@ -118,7 +118,7 @@ html {
     position: absolute;
     bottom: 50px;
     left: 0; }
-    @media (min-height: 650px) {
+    @media (min-height: 600px) {
       .nav .contact {
         font-size: 2em; } }
     @media (min-width: 768px) {
