@@ -167,7 +167,8 @@ html {
   .navbar .navbar-brand {
     font-size: 1.6em; }
     .navbar .navbar-brand svg {
-      padding: 5px 0; }
+      padding: 0 6px;
+      font-size: 1.2em; }
 
 .lead-text {
   position: absolute;

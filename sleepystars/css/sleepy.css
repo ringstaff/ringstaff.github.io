@@ -77,7 +77,8 @@ header {
   color: white;
   font-size: 1.6em; }
   .navbar-brand svg {
-    margin: 0 10px; }
+    padding: 0 6px;
+    font-size: 1.2em; }
 
 .cover-container {
   max-width: 42em; }
@@ -111,14 +112,16 @@ header {
   border: 1px solid #9b1762;
   width: 250px; }
   .btn-primary:hover {
-    background-color: #b11a70; }
+    background-color: #c71e7e;
+    border: 1px solid white; }
 
 .btn-secondary {
   width: 250px;
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid #9b1762; }
   .btn-secondary:hover {
-    background-color: #b11a70; }
+    background-color: white;
+    color: #9b1762; }
 
 footer {
   margin-top: 100px;
@@ -425,3 +428,22 @@ html {
 
 .navbar-toggle.collapsed .bottom-bar {
   transform: rotate(0); }
+
+/*
+ * modal styles
+ */
+.modal-content {
+  background-color: #000; }
+
+.modal-header {
+  height: 30px;
+  padding: 0 15px;
+  border-bottom: none; }
+
+.modal-header span {
+  font-size: 1.8em;
+  color: white !important;
+  z-index: 10000; }
+
+.modal-header > span:hover {
+  color: white; }

@@ -37,7 +37,8 @@ header {
   color: white;
   font-size: 1.6em;
   svg {
-    margin: 0 10px;
+    padding: 0 6px;
+    font-size: 1.2em;
   }
 }
 
@@ -86,8 +87,8 @@ header {
   // padding: 10px 50px  !important;
   width: 250px;
   &:hover {
-    background-color: lighten($ss_bg4, 5%);
-
+    background-color: lighten($ss_bg4, 10%);
+    border: 1px solid white;
   }
 }
 
@@ -97,8 +98,8 @@ header {
   border: 1px solid $ss_bg4;
   &:hover {
 
-    background-color: lighten($ss_bg4, 5%);
-
+    background-color: white;
+    color: $ss_bg4;
   }
 }
 
@@ -525,4 +526,27 @@ $linkBlue: #007bff;
 }
 .navbar-toggle.collapsed .bottom-bar {
   transform: rotate(0);
+}
+
+/*
+ * modal styles
+ */
+.modal-content {
+  background-color: #000;
+}
+.modal-header {
+  height: 30px;
+  padding: 0 15px;
+  border-bottom: none;
+}
+
+.modal-header span {
+  font-size: 1.8em;
+  color: white !important;
+  z-index: 10000;
+}
+
+.modal-header > span:hover {
+  color: white;
+
 }
