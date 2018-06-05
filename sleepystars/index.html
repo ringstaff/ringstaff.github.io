@@ -26,7 +26,7 @@
     <script defer src="/fonts/fontawesome-all.min.js"></script>
 
     <!-- Custom styles for this template -->
-    <link href="/sleepystars/css/tr.css?v=1.0.15" rel="stylesheet">
+    <link href="/sleepystars/css/sleepy.css?v=1.0.15" rel="stylesheet">
     <!-- <link href="/css/tr.css?v=1.0.15" rel="stylesheet"> -->
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -39,17 +39,16 @@
           <i class="fal fa-spinner-third fa-spin"></i>
         </div>
     </div>
-    <header class='mb-auto header-tohide'>
-      <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <!-- <h4 class="text-white">About Me</h4> -->
+
+    <div id="myNav" class="nav nav-container" style='opacity:0'>
+      <div class="nav-content">
+        <div class="container ">
+          <div class="row row-height">
+            <div class="col-md-7 py-4 scrollable">
               <p class="text-muted p-margin-top">
                 My name is Layne, and I'm a Software Engineer
                 born and living in Chattanooga, Tennessee.
               </p>
-              <i class="fal fa-cog"></i>
               <div class='img-me' style='background-image: url(/images/me.jpg)'></div>
               <p class="text-muted">
                 I was 10 when I
@@ -59,68 +58,79 @@
               </p>
               <p class="text-muted">
                 I also love writing and playing music, and have dreams of
-                building musical apps and games for kids and/or writing the
-                soundtrack to a really cool game. I love creating simple,
+                building musical apps and games for kids or writing the
+                soundtrack to an awesome game. I love creating simple,
                 useful things, and I enjoy the process of problem solving and
                 different aspects of creativity it takes to get there.
 
               </p>
+              <p class="text-muted">
+                I plan on adding to this site the details of the various
+                projects on which I have worked, but for now you can
+                see my new game for tired kids called
+                <a target="_blank" href="/sleepystars/index.html" class="bio-link">
+                  Sleepy Stars
+                </a>
+                  , or, if you prefer words,
+                <a target="_blank" href="/ringstaff_resume.pdf" class="bio-link">
+                  download my resume</a>.
+
+              </p>
             </div>
-            <div class="col-sm-4 offset-md-1 py-4 contact">
-              <!-- <h4 class="text-white">Contact</h4> -->
-              <a href="https://twitter.com/t_layne_ring" class="text-white">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="https://www.facebook.com/tlayne.ringstaff.3" class="text-white">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="mailto:" class="text-white">
-                <i class="fal fa-envelope-open"></i>
-              </a>
-              <!-- <ul class="list-unstyled">
-                <li><a href="https://twitter.com/t_layne_ring" class="text-white">
+            <div class="col-md-5 py-4 contact">
+              <div class='row'>
+                <a href="https://twitter.com/t_layne_ring" class="text-white">
                   <i class="fab fa-twitter"></i>
-                </a></li>
-                <li><a href="https://www.facebook.com/tlayne.ringstaff.3" class="text-white">
+                </a>
+                <a href="https://www.facebook.com/tlayne.ringstaff.3" class="text-white">
                   <i class="fab fa-facebook-f"></i>
-                </a></li>
-                <li><a href="mailto:" class="text-white">
+                </a>
+                <a href="https://soundcloud.com/t-layne-ringstaff" class="text-white">
+                  <i class="fab fa-soundcloud"></i>
+                </a>
+                <a href="mailto:layne@tlayne.com" class="text-white">
                   <i class="fal fa-envelope-open"></i>
-                </a></li>
-              </ul> -->
+                </a>
+              </div>
+
+              <a href="/sleepystars/index.html"  >
+                <img class='sleepy-link' src="/images/ss_logo2.png" />
+              </a>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- <div class="navbar transparent navbar-dark fixed-top py-3">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <i class="fal fa-user-astronaut"></i>
-            <strong>T Layne</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        </div>
+
+      </div>
+    </div>
+
+    <nav class="navbar transparent navbar-dark fixed-top py-3">
+      <div class="container d-flex justify-content-between">
+
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <i class="fal fa-user-astronaut"></i>
+          <strong>T Layne</strong>
+        </a>
+        <div>
+
+          <div class="navbar-toggle collapsed">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar top-bar"></span>
             <span class="icon-bar middle-bar"></span>
             <span class="icon-bar bottom-bar"></span>
-          </button>
-          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fal fa-bars"></i>
-            <i class="fal fa-times"></i>
-          </button>
-        </div>
-      </div> -->
+          </div>
 
-    </header>
+        </div>
+      </div>
+    </nav>
 
 
 
     <div class='bg-img text-center'>
-      <a href="http://www.tlayne.com" class="navbar-brand d-flex align-items-center">
+      <!-- <a href="http://www.tlayne.com" class="navbar-brand d-flex align-items-center">
         <i class="fal fa-user-astronaut"></i>
         <strong>T Layne</strong>
-      </a>
+      </a> -->
 
       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column main-info">
         <div class="center-spacer mb-auto"></div>
@@ -245,12 +255,14 @@
 
             </ul>
 
-            <!-- <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2> -->
-            <p class='lead'>
-              Listen free on Soundcloud:
-            </p>
+            <div class='sound-cloud'>
+              <p class='lead'>
+                Listen free on Soundcloud:
+              </p>
 
-            <iframe width="100%" height="400" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/531989199&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=false"></iframe>
+              <iframe width="100%" height="400" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/531989199&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=false"></iframe>
+
+            </div>
             <br><hr class="featurette-divider"><br>
           </div>
 
@@ -289,6 +301,76 @@
               </form>
 
             </p>
+            <p>
+              When I get time, I would like to double the amount of music in Sleepy
+              Stars. Here are some songs I'd like to add. If you have any suggestions,
+              please <a href="mailto:layne@tlayne.com" class="text-white">email me</a>!
+            </p>
+            <ul>
+
+              <li>
+                <span class='song-title'>Kookaburra</span>, Marion Sinclair
+
+              </li>
+              <!-- <li>
+                <span class='song-title'>Twinkle, Twinkle, Little Star (Ah! vous dirai-je, maman)</span>, traditional French
+
+              </li> -->
+              <li>
+                <span class='song-title'>Frère Jacques</span>, traditional French
+
+              </li>
+              <li>
+                <span class='song-title'>Rock-a-bye Baby</span>, traditional American
+
+              </li>
+              <li>
+                <span class='song-title'>Mbube (In the Jungle)</span>, Solomon Linda
+
+              </li>
+
+            </ul>
+
+            <p>
+              I also have more games in development, including a fun 4-part
+              mixer, and I'm working on an iOS version of Sleepy Stars. If you'd
+              like to stay in the know, sign up to my mailing list!
+
+
+            </p>
+
+
+
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+            	#mc_embed_signup{background:#000; clear:left; color: white; }
+            	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+            	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+              <form action="https://tlayne.us18.list-manage.com/subscribe/post?u=4fdf71c77d98f8bb5b6edc839&amp;id=2a998018a8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+                  	<h2>Subscribe to grab future info</h2>
+                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                    <div class="mc-field-group">
+                    	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                      </label>
+                    	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                  	<div id="mce-responses" class="clear">
+                  		<div class="response" id="mce-error-response" style="display:none"></div>
+                  		<div class="response" id="mce-success-response" style="display:none"></div>
+                  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4fdf71c77d98f8bb5b6edc839_2a998018a8" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                  </div>
+              </form>
+            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <!--End mc_embed_signup-->
+
+
           </div>
 
         </div>
@@ -386,7 +468,22 @@
     </footer> -->
     <footer>
       <div class="inner">
-        <p>©2018 T. Layne Ringstaff  |  <a href="tlayne.com">tlayne.com</a></p>
+        <p>©2018 T. Layne Ringstaff  <span class='d-none d-sm-inline'>|</span>  <a href="tlayne.com">tlayne.com</a> |
+          <a href="https://twitter.com/t_layne_ring" class="text-white">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/tlayne.ringstaff.3" class="text-white">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://soundcloud.com/t-layne-ringstaff" class="text-white">
+            <i class="fab fa-soundcloud"></i>
+          </a>
+          <a href="mailto:layne@tlayne.com" class="text-white">
+            <i class="fal fa-envelope-open"></i>
+          </a>
+
+
+        </p>
       </div>
     </footer>
 
@@ -405,7 +502,7 @@
 
     </script> -->
 
-    <script src="/sleepystars/js/tr.js?v=1.0.05"></script>
+    <script src="/sleepystars/js/sleepy.js?v=1.0.05"></script>
     <!-- <script src="/js/tr.js?v=1.0.05"></script> -->
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

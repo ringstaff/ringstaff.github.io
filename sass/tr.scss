@@ -20,43 +20,113 @@ html {
   height: 100%;
 }
 
-.overlay {
-  height: 100%;
-  width: 0;
+
+
+
+$navBackground: rgba(49, 13, 13, 0.8);
+$linkBlue: #007bff;
+
+.nav {
+  height: 100vh;
+  width: 100vw;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: $navBackground;
   overflow-x: hidden;
   transition: 0.5s;
-}
 
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  // text-align: center;
-  margin-top: 30px;
-
-  .container, .row {
-    position: relative;
+  .nav-container {
+    transition: opacity .3s ease-in;
   }
+  .nav-content {
+    position: relative;
+    top: 1%;
+    width: 100vw;
+    height: 100vh;
+    font-size: .7em;
+
+    .row-height {
+      height: 100vh;
+
+    }
+    // text-align: center;
+    // margin-top: 30px;
+
+    .scrollable {
+      // height: 50vh;
+    }
+    .sleepy-link {
+      width: 200px;
+      @media(max-height: 550px) {
+        display: none;
+      }
+      @media(min-width: 768px) {
+        width: 300px;
+      }
+    }
+
+    @media(min-height: 500px) {
+      font-size: .8em;
+    }
+
+    @media(min-height: 650px) {
+      font-size: .95em;
+    }
+    @media(min-width: 768px) {
+      height: 50vh;
+      top: 25%;
+      font-size: 1em;
+    }
+    .container, .row {
+      position: relative;
+    }
+  }
+
+  .text-muted {
+    color: #ddd !important;;
+  }
+  .contact {
+
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    @media(min-width: 768px) {
+      margin-top: 120px;
+      font-size: 2em;
+      position: relative;
+    }
+    .row {
+      display: block;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+    svg {
+      margin: 20px 14px;
+      color: white;
+      font-size: 1.4em;
+      transition: color .4s ease;
+      &:hover {
+        color: $linkBlue;
+        cursor: pointer;
+
+      }
+
+    }
+
+  }
+
 }
 
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  display: block;
-  transition: 0.3s;
-}
 
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
 
 .img-me {
   background-repeat: no-repeat;
@@ -87,9 +157,7 @@ html {
 
 }
 
-.sleepy-link {
-  width: 300px;
-}
+
 
 .navbar {
   color: white;
@@ -174,31 +242,6 @@ $smallest-width: 400px;
   }
 }
 
-
-.contact {
-
-  font-size: 2em;
-  // position: absolute;
-  //
-  // bottom: 0;
-  // right: 0;
-  padding: 0 50px;
-  svg {
-    margin: 20px;
-    color: #999;
-    @media(min-width: 768px) {
-      margin: 45px;
-    }
-    transition: .4s ease-in;
-    &:hover {
-      color: white;
-      cursor: pointer;
-    }
-
-  }
-}
-
-
 .p-margin-top {
   margin-top: 40px;
 }
@@ -208,7 +251,13 @@ $smallest-width: 400px;
 
 }
 
-
+@-webkit-keyframes color {
+  0% { color: $bg1; }
+  33% { color: $bg2; }
+  50% { color: $bg3; }
+  67% { color: $bg4; }
+  100% { color: $bg1; }
+}
 
 
 @-webkit-keyframes background {
@@ -242,9 +291,6 @@ $smallest-width: 400px;
   100% { text-shadow: -2px 1px $ts1; }
 }
 
-.nav-container {
-  transition: opacity .3s ease-in;
-}
 
 /*
  * navvy anim

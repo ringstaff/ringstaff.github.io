@@ -1,30 +1,30 @@
 
 $(document).ready(function(){
 
-  // var loadHome = function() {
-  //   setTimeout(function() {
-  //     $('.show-1').removeClass('invisible');
-  //     document.getElementById("hideAll").style.display = "none";
-  //
-  //     setTimeout(function() {
-  //
-  //       $('.show-2').removeClass('invisible');
-  //       setTimeout(function() {
-  //
-  //         $('.show-3').removeClass('invisible');
-  //         setTimeout(function() {
-  //
-  //           $('.show-4').removeClass('invisible');
-  //           setTimeout(function() {
-  //
-  //             $('.show-5').removeClass('invisible');
-  //
-  //           }, 500);
-  //         }, 1500);
-  //       }, 1000);
-  //     }, 1000);
-  //   }, 500);
-  // };
+  var loadHome = function() {
+    setTimeout(function() {
+      $('.show-1').removeClass('invisible');
+      $('#hideAll').css('opacity', 0);
+
+      setTimeout(function() {
+
+        $('.show-2').removeClass('invisible');
+        setTimeout(function() {
+
+          $('.show-3').removeClass('invisible');
+          setTimeout(function() {
+
+            $('.show-4').removeClass('invisible');
+            setTimeout(function() {
+
+              $('.show-5').removeClass('invisible');
+              $('#hideAll').css('display', 'none');
+            }, 500);
+          }, 1500);
+        }, 1000);
+      }, 1000);
+    }, 500);
+  };
 
   $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -43,27 +43,27 @@ $(document).ready(function(){
     }
   });
 
-  var nav = document.getElementById("myNav");
-  var navContainer = $(nav).find('.container');
+  var nav = $("#myNav");
+  // var navContainer = $(nav).find('.container');
   var isNavOpen = false;
 
   function openNav() {
     if(isNavOpen) {
-      nav.style.width = "0%";
-      navContainer.css('opacity', 0);
+      // nav.style.width = "0%";
+      nav.css('opacity', 0);
       $('.navbar-toggle').addClass('collapsed');
       isNavOpen = false;
     } else {
-      nav.style.width = "100%";
-      navContainer.css('opacity', 1);
+      // nav.style.width = "100%";
+      nav.css('opacity', 1);
       $('.navbar-toggle').removeClass('collapsed');
       isNavOpen = true;
     }
 
   }
-  navContainer.css('opacity', 0);
   $('.navbar-toggle').click(function() {
     openNav();
   });
 
+  loadHome();
 });

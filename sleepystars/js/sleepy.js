@@ -4,9 +4,7 @@ $(document).ready(function(){
   var loadHome = function() {
     setTimeout(function() {
       $('.show-1').removeClass('invisible');
-
       $('#hideAll').css('opacity', 0);
-      // document.getElementById("hideAll").style.display = "none";
 
       setTimeout(function() {
 
@@ -20,7 +18,7 @@ $(document).ready(function(){
             setTimeout(function() {
 
               $('.show-5').removeClass('invisible');
-
+              $('#hideAll').css('display', 'none');
             }, 500);
           }, 1500);
         }, 1000);
@@ -46,7 +44,7 @@ $(document).ready(function(){
     $('.bg-img').hide();
     $('.header-tohide').hide();
     $('.fader').hide();
-
+    $('.sound-cloud').hide();
   } else {
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function() {
@@ -82,5 +80,32 @@ $(document).ready(function(){
   });
 
 
+  var nav = $("#myNav");
+  // var navContainer = $(nav).find('.container');
+  var isNavOpen = false;
+
+  function openNav() {
+    if(isNavOpen) {
+      // nav.style.width = "0%";
+      nav.css('opacity', 0);
+      $('.navbar-toggle').addClass('collapsed');
+      isNavOpen = false;
+    } else {
+      // nav.style.width = "100%";
+      nav.css('opacity', 1);
+      $('.navbar-toggle').removeClass('collapsed');
+      isNavOpen = true;
+    }
+
+  }
+  $('.navbar-toggle').click(function() {
+    openNav();
+  });
+
   loadHome();
+
+
+
+
+
 });

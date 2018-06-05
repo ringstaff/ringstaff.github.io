@@ -26,10 +26,13 @@ header {
   margin: 100px auto;
 }
 
+#mc_embed_signup {
+  margin: 50px 0;
+}
 .navbar-brand {
-  position: absolute;
-  top: 50px;
-  left: 50px;
+  // position: absolute;
+  // top: 50px;
+  // left: 50px;
   color: white;
   font-size: 1.6em;
   svg {
@@ -99,11 +102,15 @@ header {
 }
 
 footer {
+  margin-top: 100px;
   width: 100%;
   text-align: center;
   color: #999;
   font-family: "Kollektif", sans-serif;
   letter-spacing: 5px;
+  svg {
+    margin: 0 5px;
+  }
 }
 /*
  * Cover
@@ -318,55 +325,173 @@ $smallest-width: 400px;
 }
 
 
-.navbar-toggler {
-  font-size: 2em;
-  border: none;
-  svg {
-    transition: opacity .4s ease-out;
-    color: white;
+$navBackground: rgba(49, 13, 13, 0.9);
+$linkBlue: #007bff;
+
+.nav {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: $navBackground;
+  overflow-x: hidden;
+  transition: 0.5s;
+
+  .nav-container {
+    transition: opacity .3s ease-in;
   }
-  position: relative;
-  .fa-bars {
-    // display: none;
-    opacity: 0;
+  .nav-content {
+    position: relative;
+    top: 1%;
+    width: 100vw;
+    height: 100vh;
+    font-size: .7em;
+
+    .row-height {
+      height: 100vh;
+
+    }
+    // text-align: center;
+    // margin-top: 30px;
+
+    .scrollable {
+      // height: 50vh;
+    }
+    .sleepy-link {
+      width: 200px;
+      @media(max-height: 550px) {
+        display: none;
+      }
+      @media(min-width: 768px) {
+        width: 300px;
+      }
+    }
+
+    @media(min-height: 500px) {
+      font-size: .8em;
+    }
+
+    @media(min-height: 650px) {
+      font-size: .95em;
+    }
+    @media(min-width: 768px) {
+      height: 50vh;
+      top: 25%;
+      font-size: 1em;
+    }
+    .container, .row {
+      position: relative;
+    }
   }
-  .fa-times {
-    // display: block;
-    opacity: 1;
+
+  .text-muted {
+    color: #ddd !important;;
+  }
+  .contact {
+    padding: 0;
+    font-size: 1.6em;
+    text-align: center;
+
     position: absolute;
-    right: 12px;
-    top: 0;
-    font-size: 1.25em;
+    bottom: 0;
+    left: 0;
+
+    @media(min-width: 768px) {
+      margin-top: 120px;
+      font-size: 2em;
+      position: relative;
+    }
+    .row {
+      display: block;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+    svg {
+      margin: 20px 14px;
+      color: white;
+      font-size: 1.4em;
+      transition: color .4s ease;
+      &:hover {
+        color: $linkBlue;
+        cursor: pointer;
+
+      }
+
+    }
+
   }
 
-  &:focus {
-    outline: none;
-  }
 }
 
-.navbar-toggler.collapsed {
-  .fa-bars {
-    // display: block;
-    opacity: 1;
-  }
-  .fa-times {
-    // display: none;
-    opacity: 0;
-  }
-}
+//
+// .navbar-toggler {
+//   font-size: 2em;
+//   border: none;
+//   svg {
+//     transition: opacity .4s ease-out;
+//     color: white;
+//   }
+//   position: relative;
+//   .fa-bars {
+//     opacity: 0;
+//   }
+//   .fa-times {
+//     opacity: 1;
+//     position: absolute;
+//     right: 12px;
+//     top: 0;
+//     font-size: 1.25em;
+//   }
+//
+//   &:focus {
+//     outline: none;
+//   }
+// }
+//
+// .navbar-toggler.collapsed {
+//   .fa-bars {
+//     opacity: 1;
+//   }
+//   .fa-times {
+//     opacity: 0;
+//   }
+// }
 
 /*
  * navvy anim
  */
 .navbar .navbar-toggle .icon-bar {
-  background-color: $eggshell;
+  background-color: white;
+  display: block;
+  width: 34px;
+  height: 3px;
+  border-radius: 1px;
+  margin-top: 6px;
 }
 .navbar-toggle {
   border: none;
-  margin-top: 15px;
+  font-size: 2em;
+  border: none;
+  cursor:pointer;
+  display: block;
+  text-align: right;
+  background-color: transparent;
+  border: none;
+  z-index:102;
+  position: relative;
+
+  &:focus {
+    outline: none;
+  }
+  // margin-top: 15px;
 }
 .navbar-toggle .icon-bar {
-  width: 22px;
+  width: 32px;
   transition: all 0.2s;
 }
 .navbar-toggle .top-bar {
