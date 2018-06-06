@@ -269,11 +269,22 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/sky_bg_big.png": {
+	"\/images\/sky_bg_big_1600_.png": {
 		"ft": 32768,
-		"iS": 1852916,
+		"iS": 576255,
 		"oA": 0,
-		"oAP": "\/images\/sky_bg_big.png",
+		"oAP": "\/images\/sky_bg_big_1600_.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/sky_bg_big__.png": {
+		"ft": 32768,
+		"iS": 1524561,
+		"oA": 0,
+		"oAP": "\/images\/sky_bg_big__.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -286,8 +297,8 @@
 		"oA": 0,
 		"oAP": "\/images\/spaceman.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -542,6 +553,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/min\/redback-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/sleepy-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/sleepy-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
