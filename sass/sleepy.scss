@@ -44,6 +44,19 @@ header {
 .marketing {
   margin-top: 100px;
 }
+
+#privacyModal {
+  color: white;
+}
+
+.privacy-link {
+  font-size: .95em;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
 .featurette {
   font-family: "Kollektif", sans-serif;
 

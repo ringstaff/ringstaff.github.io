@@ -39,8 +39,9 @@ $(document).ready(function(){
   }
 
   var isApp = getQueryVariable("app_ref");
+  var isPrivacy = getQueryVariable("privacy_ref");
 
-  if(isApp === "true") {
+  if(isApp && isApp === "true") {
     $('.bg-img').hide();
     $('.header-tohide').hide();
     $('.fader').hide();
@@ -68,6 +69,10 @@ $(document).ready(function(){
       zIndex: 9,
       autoplaySpeed: 200,
     });
+  }
+
+  if(isPrivacy && isPrivacy === "true") {
+    $('.privacy-link').click();
   }
 
   $(function() {
