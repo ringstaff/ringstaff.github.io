@@ -53,9 +53,9 @@ $textMuted: #eed;
       font-size: 1em;
     }
 
-    @media(min-height: 600px) {
-      top: 15%;
-    }
+    // @media(min-height: 600px) {
+    //   top: 15%;
+    // }
 
     @media(min-height: 800px) {
       top: 25%;
@@ -100,7 +100,7 @@ $textMuted: #eed;
     text-align: center;
     padding: 0;
     position: absolute;
-    bottom: 50px;
+    bottom: 0;
     left: 0;
     @media(min-height: 600px) {
       font-size: 2em;

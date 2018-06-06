@@ -92,9 +92,6 @@
       .nav .nav-content {
         height: 50vh;
         font-size: 1em; } }
-    @media (min-height: 600px) {
-      .nav .nav-content {
-        top: 15%; } }
     @media (min-height: 800px) {
       .nav .nav-content {
         top: 25%; } }
@@ -117,7 +114,7 @@
     text-align: center;
     padding: 0;
     position: absolute;
-    bottom: 50px;
+    bottom: 0;
     left: 0; }
     @media (min-height: 600px) {
       .nav .contact {
