@@ -1,0 +1,138 @@
+//nav
+
+// $navBackground: rgba(49, 13, 13, 0.8);
+$navBackground: rgba(0, 0, 0, .85);
+// $navBackground: rgba(255,255,255, .7);
+$linkBlue: #007bff;
+$textMuted: #eed;
+
+.navbar-brand {
+  // position: absolute;
+  // top: 50px;
+  // left: 50px;
+  z-index: 1;
+  color: white;
+  font-size: 1.6em;
+  svg {
+    padding: 0 6px;
+    font-size: 1.2em;
+  }
+}
+
+.nav {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: $navBackground;
+  overflow-x: hidden;
+  transition: opacity 0.5s ease;
+
+  .nav-container {
+    transition: opacity .5s ease-in;
+  }
+  .nav-content {
+    position: relative;
+    top: 1%;
+    width: 100vw;
+    height: 100vh;
+    font-size: .7em;
+
+    @media(min-height: 500px) {
+      font-size: .85em;
+    }
+
+    @media(min-height: 615px) {
+      font-size: .95em;
+    }
+    @media(min-width: 768px) {
+      height: 50vh;
+      font-size: 1em;
+    }
+
+    @media(min-height: 600px) {
+      top: 15%;
+    }
+
+    @media(min-height: 800px) {
+      top: 25%;
+    }
+
+
+    .row-height {
+      height: 100vh;
+
+    }
+    // text-align: center;
+    // margin-top: 30px;
+
+    .scrollable {
+      // height: 50vh;
+    }
+    .sleepy-link {
+      width: 150px;
+      @media(max-height: 550px) {
+        display: none;
+      }
+      @media(min-height: 650px) {
+        width: 200px;
+      }
+      // @media(min-width: 768px) {
+      //   width: 300px;
+      // }
+    }
+
+
+    .container, .row {
+      position: relative;
+    }
+  }
+
+  .text-muted {
+    color: $textMuted !important;
+  }
+  .contact {
+
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    @media(min-height: 600px) {
+      font-size: 2em;
+    }
+
+    @media(min-width: 768px) {
+      margin-top: 120px;
+      font-size: 2em;
+      position: relative;
+    }
+    .row {
+      display: block;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+    svg {
+      margin: 10px 14px;
+      color: $textMuted;
+      transition: color .4s ease;
+      &:hover {
+        color: $linkBlue;
+        cursor: pointer;
+
+      }
+
+      @media(min-width: 768px) {
+        margin: 20px 14px;
+      }
+    }
+
+  }
+
+}

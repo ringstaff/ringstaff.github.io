@@ -23,7 +23,7 @@
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: #b4b4a8;
+  background-color: #999;
   z-index: 600;
   transition: opacity .5s ease;
   text-align: center; }
@@ -150,6 +150,180 @@ body {
   -webkit-tap-highlght-color: rgba(255, 255, 255, 0.2);
   text-rendering: geometricPrecision; }
 
+html,
+body {
+  height: 100%;
+  background-color: #000; }
+
+header {
+  margin-bottom: 2rem; }
+
+.donate {
+  margin: 100px auto; }
+
+#info {
+  padding-top: 50px; }
+
+#mc_embed_signup {
+  margin: 50px 0; }
+
+.cover-container {
+  max-width: 42em; }
+
+.marketing {
+  margin-top: 100px; }
+
+.featurette {
+  font-family: "Kollektif", sans-serif; }
+  .featurette .img-star {
+    float: right;
+    width: 50%;
+    margin: 20px; }
+    @media (min-width: 768px) {
+      .featurette .img-star {
+        width: 30%; } }
+  .featurette .lead {
+    color: white; }
+  .featurette .song-title {
+    font-style: italic;
+    font-weight: normal !important; }
+  .featurette ul {
+    color: white;
+    font-weight: bold; }
+
+.featurette-divider {
+  background-color: white; }
+
+.btn-primary {
+  background-color: #9b1762;
+  border: 1px solid #9b1762;
+  width: 250px;
+  letter-spacing: 1px;
+  text-shadow: none; }
+  .btn-primary:hover {
+    background-color: #c71e7e;
+    border: 1px solid white; }
+  .btn-primary svg {
+    font-size: 1.4em;
+    margin: 0 6px; }
+
+.btn-secondary {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #9b1762;
+  letter-spacing: 1px;
+  text-shadow: none; }
+  .btn-secondary:hover {
+    background-color: white;
+    color: #9b1762; }
+  .btn-secondary svg {
+    font-size: 1.4em;
+    margin: 0 6px; }
+
+.mastfoot .learn-more {
+  margin-bottom: -5px; }
+  .mastfoot .learn-more a {
+    font-size: .9em;
+    color: #eed !important; }
+    .mastfoot .learn-more a:hover {
+      color: #007bff !important; }
+
+.mastfoot svg {
+  font-size: 2.4em;
+  color: #eed !important; }
+  .mastfoot svg:hover {
+    color: #007bff !important; }
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  color: #999;
+  font-family: "Kollektif", sans-serif;
+  letter-spacing: 5px; }
+  footer svg {
+    margin: 0 5px; }
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem; }
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700; }
+
+.img-sleepy {
+  width: 100%;
+  height: auto;
+  margin: 50px 0; }
+
+.cover-container {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased; }
+
+.bg-img {
+  background-image: url(/images/sky_bg_big.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-animation: ss_background 20s linear infinite;
+  animation: ss_background 20s linear infinite;
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.fader {
+  position: relative;
+  top: -80px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 2; }
+  .fader .slick-initialized {
+    position: absolute; }
+  .fader img {
+    height: 100vh;
+    width: auto; }
+
+.main-info {
+  z-index: 10; }
+
+@-webkit-keyframes ss_background {
+  0% {
+    background-color: #626262; }
+  33% {
+    background-color: #588080; }
+  50% {
+    background-color: #b7917a; }
+  67% {
+    background-color: #9b1762; }
+  100% {
+    background-color: #626262; } }
+
+@keyframes ss_background {
+  0% {
+    background-color: #626262; }
+  33% {
+    background-color: #588080; }
+  50% {
+    background-color: #b7917a; }
+  67% {
+    background-color: #9b1762; }
+  100% {
+    background-color: #626262; } }
+
 html {
   z-index: 5;
   overflow-x: hidden;
@@ -165,17 +339,12 @@ html {
   background-size: contain;
   float: right; }
 
-.bg-image {
-  height: 100vh;
-  background-image: url(/images/bg_this_.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-animation: background 20s ease-in-out infinite;
-  animation: background 20s ease-in-out infinite;
-  margin: 0 !important;
-  color: white;
-  color: #b4b4a8; }
+.navbar {
+  color: white; }
+  .navbar .navbar-brand {
+    font-size: 1.6em; }
+    .navbar .navbar-brand svg {
+      padding: 5px 0; }
 
 .lead-text {
   position: absolute;
@@ -232,52 +401,22 @@ html {
       .lead-text .grad-line {
         width: 470px; } }
 
+.contact {
+  font-size: 2em;
+  padding: 0 50px; }
+  .contact svg {
+    margin: 20px;
+    color: #999;
+    transition: .4s ease-in; }
+    @media (min-width: 768px) {
+      .contact svg {
+        margin: 45px; } }
+    .contact svg:hover {
+      color: white;
+      cursor: pointer; }
+
 .p-margin-top {
   margin-top: 40px; }
-
-@-webkit-keyframes color {
-  0% {
-    color: #b4b4a8; }
-  33% {
-    color: #33658A; }
-  50% {
-    color: #2F4858; }
-  67% {
-    color: #C32F27; }
-  100% {
-    color: #b4b4a8; } }
-
-@-webkit-keyframes background {
-  0% {
-    background-color: #b4b4a8; }
-  33% {
-    background-color: #33658A; }
-  50% {
-    background-color: #2F4858; }
-  67% {
-    background-color: #C32F27; }
-  100% {
-    background-color: #b4b4a8; } }
-
-@keyframes background {
-  0% {
-    background-color: #b4b4a8; }
-  33% {
-    background-color: #33658A; }
-  50% {
-    background-color: #2F4858; }
-  67% {
-    background-color: #C32F27; }
-  100% {
-    background-color: #b4b4a8; } }
-
-@-webkit-keyframes ts {
-  0% {
-    text-shadow: -2px 1px rgba(255, 255, 255, 0.5); }
-  33% {
-    text-shadow: -2px 1px rgba(255, 255, 255, 0); }
-  100% {
-    text-shadow: -2px 1px rgba(255, 255, 255, 0.5); } }
 
 /*
  * navvy anim
@@ -299,6 +438,7 @@ html {
   text-align: right;
   background-color: transparent;
   border: none;
+  z-index: 102;
   position: relative; }
   .navbar-toggle:focus {
     outline: none; }
@@ -326,3 +466,22 @@ html {
 
 .navbar-toggle.collapsed .bottom-bar {
   transform: rotate(0); }
+
+/*
+ * modal styles
+ */
+.modal-content {
+  background-color: #000; }
+
+.modal-header {
+  height: 30px;
+  padding: 0 15px;
+  border-bottom: none; }
+
+.modal-header span {
+  font-size: 1.8em;
+  color: white !important;
+  z-index: 10000; }
+
+.modal-header > span:hover {
+  color: white; }

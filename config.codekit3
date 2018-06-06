@@ -16,6 +16,16 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
+	"\/css\/sleepy.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/sleepy-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/tr.css": {
 		"aP": 1,
 		"bl": 0,
@@ -546,6 +556,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/sleepy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/sleepy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/tr.js": {
 		"ft": 64,
 		"ma": 0,
@@ -556,11 +576,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/ringstaff_resume1.pdf": {
+	"\/ringstaff_resume.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/ringstaff_resume1.pdf",
+		"oAP": "\/ringstaff_resume.pdf",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/1a559dea42696566de8668abcc4c5426a69a52f0\/_variables.scssc": {
@@ -640,6 +660,19 @@
 		"oAP": "\/sass\/.sass-cache\/e03b99065d4d0748ee8cc79c5328f1fbb805bf8b\/tr.scssc",
 		"oF": 0
 		},
+	"\/sass\/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/_product.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -666,6 +699,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/_variables0.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_variables0.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/sleepy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/sleepy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/tr.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -685,6 +744,16 @@
 		"oA": 0,
 		"oAP": "\/sleepystars\/CNAME",
 		"oF": 0
+		},
+	"\/sleepystars\/css\/sleepy.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sleepystars\/css\/sleepy-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/sleepystars\/css\/tr.css": {
 		"aP": 1,
@@ -1188,22 +1257,22 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/sleepystars\/js\/min\/sleepy-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/sleepystars\/js\/min\/min\/sleepy-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/sleepystars\/js\/min\/tr-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/sleepystars\/js\/min\/min\/tr-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/sleepystars\/js\/tr.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/sleepystars\/js\/min\/tr-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1262,6 +1331,27 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sleepystars\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/tr.scssc",
+		"oF": 0
+		},
+	"\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/_product.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/_product.scssc",
+		"oF": 0
+		},
+	"\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/_variables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/_variables.scssc",
+		"oF": 0
+		},
+	"\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/sleepy.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/sleepy.scssc",
 		"oF": 0
 		},
 	"\/sleepystars\/sass\/.sass-cache\/c79036711faa3759539218096e06e54e26e1d821\/_product.scssc": {
@@ -1328,19 +1418,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sleepystars\/css\/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sleepystars\/sass\/tr.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/sleepystars\/css\/tr.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

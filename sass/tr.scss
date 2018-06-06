@@ -1,5 +1,7 @@
 @import "variables";
 @import "product";
+@import "nav";
+
 
 body {
   z-index: 5;
@@ -11,6 +13,7 @@ body {
   // background-color: $black;
   -webkit-tap-highlght-color: rgba(white, 0.2);
 
+  text-rendering: geometricPrecision;
 }
 
 html {
@@ -19,124 +22,6 @@ html {
   max-width: 100%;
   height: 100%;
 }
-
-
-
-
-$navBackground: rgba(49, 13, 13, 0.8);
-$linkBlue: #007bff;
-
-.nav {
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  z-index: 101;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: $navBackground;
-  overflow-x: hidden;
-  transition: 0.5s;
-
-  .nav-container {
-    transition: opacity .3s ease-in;
-  }
-  .nav-content {
-    position: relative;
-    top: 1%;
-    width: 100vw;
-    height: 100vh;
-    font-size: .7em;
-
-    @media(min-height: 500px) {
-      font-size: .85em;
-    }
-
-    @media(min-height: 615px) {
-      font-size: .95em;
-    }
-    @media(min-width: 768px) {
-      height: 50vh;
-      top: 25%;
-      font-size: 1em;
-    }
-
-    .row-height {
-      height: 100vh;
-
-    }
-    // text-align: center;
-    // margin-top: 30px;
-
-    .scrollable {
-      // height: 50vh;
-    }
-    .sleepy-link {
-      width: 150px;
-      @media(max-height: 550px) {
-        display: none;
-      }
-      @media(min-height: 650px) {
-        width: 200px;
-      }
-      @media(min-width: 768px) {
-        width: 300px;
-      }
-    }
-
-
-    .container, .row {
-      position: relative;
-    }
-  }
-
-  .text-muted {
-    color: #ddd !important;;
-  }
-  .contact {
-
-    font-size: 1.6em;
-    text-align: center;
-    padding: 0;
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    @media(min-height: 600px) {
-      font-size: 2em;
-    }
-
-    @media(min-width: 768px) {
-      margin-top: 120px;
-      font-size: 2em;
-      position: relative;
-    }
-    .row {
-      display: block;
-    }
-
-    a:hover {
-      text-decoration: none;
-    }
-    svg {
-      margin: 10px 14px;
-      color: white;
-      transition: color .4s ease;
-      &:hover {
-        color: $linkBlue;
-        cursor: pointer;
-
-      }
-
-      @media(min-width: 768px) {
-        margin: 20px 14px;
-      }
-    }
-
-  }
-
-}
-
-
 
 .img-me {
   background-repeat: no-repeat;
@@ -165,20 +50,6 @@ $linkBlue: #007bff;
   color: $bg5;
 
 
-}
-
-
-
-.navbar {
-  color: white;
-
-  .navbar-brand {
-    font-size: 1.6em;
-    svg {
-      padding: 0 6px;
-      font-size: 1.2em;
-    }
-  }
 }
 
 $smallest-width: 400px;
