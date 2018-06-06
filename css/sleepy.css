@@ -173,6 +173,10 @@ header {
 .marketing {
   margin-top: 50px; }
 
+.italic {
+  font-style: italic;
+  font-size: .95em; }
+
 #privacyModal {
   color: white; }
 
