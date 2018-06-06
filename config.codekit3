@@ -302,6 +302,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/ss_logo.png": {
+		"ft": 32768,
+		"iS": 45369,
+		"oA": 0,
+		"oAP": "\/images\/ss_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/ss_logo2.png": {
 		"ft": 32768,
 		"iS": 41072,
@@ -639,6 +650,13 @@
 		"oAP": "\/sass\/.sass-cache\/97e3fed72cad1ea72843e3750621a342ecddcb10\/redback.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_nav.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_nav.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_product.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -651,6 +669,20 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_variables.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_variables0.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_variables0.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/sleepy.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/sleepy.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/tr.scssc": {
@@ -765,36 +797,6 @@
 		"oA": 0,
 		"oAP": "\/sleepystars\/CNAME",
 		"oF": 0
-		},
-	"\/sleepystars\/css\/sleepy.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/sleepystars\/css\/sleepy-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/sleepystars\/css\/tr.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sleepystars\/css\/tr-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/sleepystars\/css\/utils.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/sleepystars\/css\/utils-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/sleepystars\/dist\/css\/bootstrap.min.css": {
 		"aP": 1,
@@ -1268,180 +1270,12 @@
 		"oAP": "\/sleepystars\/index.html",
 		"oF": 0
 		},
-	"\/sleepystars\/js\/min\/redback-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/sleepystars\/js\/min\/min\/redback-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/sleepystars\/js\/min\/sleepy-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/sleepystars\/js\/min\/min\/sleepy-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/sleepystars\/js\/min\/tr-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/sleepystars\/js\/min\/min\/tr-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/1a559dea42696566de8668abcc4c5426a69a52f0\/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/1a559dea42696566de8668abcc4c5426a69a52f0\/_variables.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/1a559dea42696566de8668abcc4c5426a69a52f0\/redback.scssc": {
+	"\/sleepystars\/privacy\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/1a559dea42696566de8668abcc4c5426a69a52f0\/redback.scssc",
+		"oAP": "\/sleepystars\/privacy\/index.html",
 		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/97e3fed72cad1ea72843e3750621a342ecddcb10\/_mixins.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/97e3fed72cad1ea72843e3750621a342ecddcb10\/_mixins.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/97e3fed72cad1ea72843e3750621a342ecddcb10\/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/97e3fed72cad1ea72843e3750621a342ecddcb10\/_variables.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/97e3fed72cad1ea72843e3750621a342ecddcb10\/redback.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/97e3fed72cad1ea72843e3750621a342ecddcb10\/redback.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_product.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_product.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/_variables.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/tr.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/9fb018922e4914470941d6cdcb0dcc19ee1fbf34\/tr.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/_product.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/_product.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/_variables.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/sleepy.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/b3e6767f434e023a5215f54ef76266241214ff81\/sleepy.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/c79036711faa3759539218096e06e54e26e1d821\/_product.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/c79036711faa3759539218096e06e54e26e1d821\/_product.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/c79036711faa3759539218096e06e54e26e1d821\/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/c79036711faa3759539218096e06e54e26e1d821\/_variables.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/c79036711faa3759539218096e06e54e26e1d821\/tr.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/c79036711faa3759539218096e06e54e26e1d821\/tr.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/e03b99065d4d0748ee8cc79c5328f1fbb805bf8b\/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/e03b99065d4d0748ee8cc79c5328f1fbb805bf8b\/_variables.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/e03b99065d4d0748ee8cc79c5328f1fbb805bf8b\/redback.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/e03b99065d4d0748ee8cc79c5328f1fbb805bf8b\/redback.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/.sass-cache\/e03b99065d4d0748ee8cc79c5328f1fbb805bf8b\/tr.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sleepystars\/sass\/.sass-cache\/e03b99065d4d0748ee8cc79c5328f1fbb805bf8b\/tr.scssc",
-		"oF": 0
-		},
-	"\/sleepystars\/sass\/_product.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sleepystars\/css\/_product.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sleepystars\/sass\/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sleepystars\/css\/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		}
 	},
 "hooks": [
