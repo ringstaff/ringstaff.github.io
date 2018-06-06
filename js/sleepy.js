@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
     console.log(window.location);
-    if(window.location === "http://www.tlayne.com/sleepystars/privacy") {
+    if(window.location.pathname === "/sleepystars/privacy/") {
       window.location = "http://www.tlayne.com/sleepystars/index.html?privacy_ref=true";
     }
 
@@ -86,7 +86,7 @@ $(document).ready(function(){
   if(isPrivacy && isPrivacy === "true") {
     $('.privacy-link').click();
   }
-  
+
   //
   // $(function() {
   //   $('a.page-scroll').bind('click', function(event) {
