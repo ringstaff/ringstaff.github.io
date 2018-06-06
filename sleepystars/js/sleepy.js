@@ -38,6 +38,11 @@ $(document).ready(function(){
    return(false);
   }
 
+  console.log(window.location);
+  if(window.location === "http://www.tlayne.com/sleepystars/privacy") {
+    window.location = "http://www.tlayne.com/sleepystars/index.html?privacy_ref=true";
+  }
+
   var isApp = getQueryVariable("app_ref");
   var isPrivacy = getQueryVariable("privacy_ref");
 

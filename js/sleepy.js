@@ -1,6 +1,11 @@
 
 $(document).ready(function(){
 
+    console.log(window.location);
+    if(window.location === "http://www.tlayne.com/sleepystars/privacy") {
+      window.location = "http://www.tlayne.com/sleepystars/index.html?privacy_ref=true";
+    }
+
   var loadHome = function() {
     setTimeout(function() {
       $('.show-1').removeClass('invisible');
@@ -38,7 +43,9 @@ $(document).ready(function(){
    return(false);
   }
 
+
   var isApp = getQueryVariable("app_ref");
+  var isPrivacy = getQueryVariable("privacy_ref");
 
   function slickIt() {
     $('.fader').slick({
@@ -75,6 +82,11 @@ $(document).ready(function(){
     slickIt();
 
   }
+
+  if(isPrivacy && isPrivacy === "true") {
+    $('.privacy-link').click();
+  }
+  
   //
   // $(function() {
   //   $('a.page-scroll').bind('click', function(event) {
