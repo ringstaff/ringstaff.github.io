@@ -1,15 +1,12 @@
 @font-face {
   font-family: 'Kollektif-Bold';
   src: url("/fonts/Kollektif-Bold.ttf"); }
-
 @font-face {
   font-family: 'Kollektif';
   src: url("/fonts/Kollektif.ttf"); }
-
 @font-face {
   font-family: 'Kollektif-Italic';
   src: url("/fonts/Kollektif-Italic.ttf"); }
-
 .spinner {
   margin: 0 auto;
   font-size: 3em;
@@ -51,7 +48,6 @@
   .flex-md-equal > * {
     -ms-flex: 1;
     flex: 1; } }
-
 .overflow-hidden {
   overflow: hidden; }
 
@@ -202,7 +198,6 @@ footer {
     background-color: #9b1762; }
   100% {
     background-color: #626262; } }
-
 @keyframes ss_background {
   0% {
     background-color: #626262; }
@@ -214,7 +209,6 @@ footer {
     background-color: #9b1762; }
   100% {
     background-color: #626262; } }
-
 html {
   z-index: 5;
   overflow-x: hidden;
@@ -308,6 +302,83 @@ html {
 
 .p-margin-top {
   margin-top: 40px; }
+
+.nav {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(49, 13, 13, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s; }
+  .nav .nav-container {
+    transition: opacity .3s ease-in; }
+  .nav .nav-content {
+    position: relative;
+    top: 1%;
+    width: 100vw;
+    height: 100vh;
+    font-size: .7em; }
+    @media (min-height: 500px) {
+      .nav .nav-content {
+        font-size: .85em; } }
+    @media (min-height: 615px) {
+      .nav .nav-content {
+        font-size: .95em; } }
+    @media (min-width: 768px) {
+      .nav .nav-content {
+        height: 50vh;
+        top: 25%;
+        font-size: 1em; } }
+    .nav .nav-content .row-height {
+      height: 100vh; }
+    .nav .nav-content .sleepy-link {
+      width: 150px; }
+      @media (max-height: 550px) {
+        .nav .nav-content .sleepy-link {
+          display: none; } }
+      @media (min-height: 650px) {
+        .nav .nav-content .sleepy-link {
+          width: 200px; } }
+      @media (min-width: 768px) {
+        .nav .nav-content .sleepy-link {
+          width: 300px; } }
+    .nav .nav-content .container, .nav .nav-content .row {
+      position: relative; }
+  .nav .text-muted {
+    color: #ddd !important; }
+  .nav .contact {
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    bottom: 50px;
+    left: 0; }
+    @media (min-height: 600px) {
+      .nav .contact {
+        font-size: 2em; } }
+    @media (min-width: 768px) {
+      .nav .contact {
+        margin-top: 120px;
+        font-size: 2em;
+        position: relative; } }
+    .nav .contact .row {
+      display: block; }
+    .nav .contact a:hover {
+      text-decoration: none; }
+    .nav .contact svg {
+      margin: 10px 14px;
+      color: white;
+      transition: color .4s ease; }
+      .nav .contact svg:hover {
+        color: #007bff;
+        cursor: pointer; }
+      @media (min-width: 768px) {
+        .nav .contact svg {
+          margin: 20px 14px; } }
 
 /*
  * navvy anim
