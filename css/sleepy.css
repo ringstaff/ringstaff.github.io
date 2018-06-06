@@ -102,7 +102,7 @@
       @media (max-height: 550px) {
         .nav .nav-content .sleepy-link {
           display: none; } }
-      @media (min-height: 650px) {
+      @media (min-height: 800px) {
         .nav .nav-content .sleepy-link {
           width: 200px; } }
     .nav .nav-content .container, .nav .nav-content .row {
