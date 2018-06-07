@@ -220,7 +220,7 @@ footer {
 .fader {
   position: relative;
   top: -80px;
-  left: 0;
+  left: -800px;
 
   .slick-initialized {
     position: absolute;
@@ -229,13 +229,18 @@ footer {
   // width: 100vw;
   // height: 100vh;
   //
-  width: 100%;
+  width: 400%;
   height: 100vh;
   z-index: 2;
 
   img {
     height: 100vh;
     width: auto;
+  }
+
+  @media(min-width: 768px) {
+    width: 100%;
+    left: 0;
   }
 }
 

@@ -307,17 +307,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/star1-compressor.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4162,
-		"inputAbbreviatedPath": "\/images\/star1-compressor.png",
-		"outputAbbreviatedPath": "\/images\/star1-compressor.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/star1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -329,13 +318,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/star2-compressor.png": {
+	"\/images\/star1_.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4271,
-		"inputAbbreviatedPath": "\/images\/star2-compressor.png",
-		"outputAbbreviatedPath": "\/images\/star2-compressor.png",
+		"initialSize": 4162,
+		"inputAbbreviatedPath": "\/images\/star1_.png",
+		"outputAbbreviatedPath": "\/images\/star1_.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -351,13 +340,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/star3-compressor.png": {
+	"\/images\/star2_.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4490,
-		"inputAbbreviatedPath": "\/images\/star3-compressor.png",
-		"outputAbbreviatedPath": "\/images\/star3-compressor.png",
+		"initialSize": 4271,
+		"inputAbbreviatedPath": "\/images\/star2_.png",
+		"outputAbbreviatedPath": "\/images\/star2_.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -373,13 +362,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/star4-compressor.png": {
+	"\/images\/star3_.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4361,
-		"inputAbbreviatedPath": "\/images\/star4-compressor.png",
-		"outputAbbreviatedPath": "\/images\/star4-compressor.png",
+		"initialSize": 4490,
+		"inputAbbreviatedPath": "\/images\/star3_.png",
+		"outputAbbreviatedPath": "\/images\/star3_.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -395,6 +384,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/star4_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4361,
+		"inputAbbreviatedPath": "\/images\/star4_.png",
+		"outputAbbreviatedPath": "\/images\/star4_.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/star5.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -402,6 +402,17 @@
 		"initialSize": 32447,
 		"inputAbbreviatedPath": "\/images\/star5.png",
 		"outputAbbreviatedPath": "\/images\/star5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/star5_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4452,
+		"inputAbbreviatedPath": "\/images\/star5_.png",
+		"outputAbbreviatedPath": "\/images\/star5_.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -417,6 +428,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/star6_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4452,
+		"inputAbbreviatedPath": "\/images\/star6_.png",
+		"outputAbbreviatedPath": "\/images\/star6_.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/star7.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -424,6 +446,17 @@
 		"initialSize": 26988,
 		"inputAbbreviatedPath": "\/images\/star7.png",
 		"outputAbbreviatedPath": "\/images\/star7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/star7_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4442,
+		"inputAbbreviatedPath": "\/images\/star7_.png",
+		"outputAbbreviatedPath": "\/images\/star7_.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -439,6 +472,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/star8_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4409,
+		"inputAbbreviatedPath": "\/images\/star8_.png",
+		"outputAbbreviatedPath": "\/images\/star8_.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/star9.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -446,6 +490,17 @@
 		"initialSize": 27283,
 		"inputAbbreviatedPath": "\/images\/star9.png",
 		"outputAbbreviatedPath": "\/images\/star9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/star9_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4350,
+		"inputAbbreviatedPath": "\/images\/star9_.png",
+		"outputAbbreviatedPath": "\/images\/star9_.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

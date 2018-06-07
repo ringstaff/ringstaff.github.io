@@ -51,7 +51,7 @@ $(document).ready(function(){
     $('.fader').slick({
       dots: false,
       infinite: true,
-      speed: 800,
+      speed: 1000,
       fade: true,
       cssEase: 'linear',
       arrows: false,
@@ -60,6 +60,7 @@ $(document).ready(function(){
       autoplaySpeed: 200,
       pauseOnFocus: false,
       pauseOnHover: false,
+      responsive: false
     });
   }
 
