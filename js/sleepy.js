@@ -58,6 +58,8 @@ $(document).ready(function(){
       autoplay: true,
       zIndex: 9,
       autoplaySpeed: 200,
+      pauseOnFocus: false,
+      pauseOnHover: false,
     });
   }
 

@@ -1,15 +1,12 @@
 @font-face {
   font-family: 'Kollektif-Bold';
   src: url("/fonts/Kollektif-Bold.ttf"); }
-
 @font-face {
   font-family: 'Kollektif';
   src: url("/fonts/Kollektif.ttf"); }
-
 @font-face {
   font-family: 'Kollektif-Italic';
   src: url("/fonts/Kollektif-Italic.ttf"); }
-
 .spinner {
   margin: 0 auto;
   font-size: 3em;
@@ -51,7 +48,6 @@
   .flex-md-equal > * {
     -ms-flex: 1;
     flex: 1; } }
-
 .overflow-hidden {
   overflow: hidden; }
 
@@ -234,7 +230,6 @@ header {
     color: #eed !important; }
     .mastfoot .learn-more a:hover {
       color: #007bff !important; }
-
 .mastfoot svg {
   font-size: 2em;
   color: #eed !important; }
@@ -277,7 +272,7 @@ footer {
   -webkit-font-smoothing: antialiased; }
 
 .bg-img {
-  background-image: url(/images/sky_bg_big_1600_.png);
+  background-image: url(/images/sky_web_new_.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -323,7 +318,6 @@ footer {
     background-color: #9b1762; }
   100% {
     background-color: #626262; } }
-
 @keyframes ss_background {
   0% {
     background-color: #626262; }
@@ -335,7 +329,6 @@ footer {
     background-color: #9b1762; }
   100% {
     background-color: #626262; } }
-
 html {
   z-index: 5;
   overflow-x: hidden;

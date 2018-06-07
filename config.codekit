@@ -175,6 +175,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/sky_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.10686e+06,
+		"inputAbbreviatedPath": "\/images\/sky_.png",
+		"outputAbbreviatedPath": "\/images\/sky_.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/sky_bg_big_1600_.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -193,6 +204,72 @@
 		"initialSize": 1.52456e+06,
 		"inputAbbreviatedPath": "\/images\/sky_bg_big__.png",
 		"outputAbbreviatedPath": "\/images\/sky_bg_big__.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sky_web.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.88981e+06,
+		"inputAbbreviatedPath": "\/images\/sky_web.png",
+		"outputAbbreviatedPath": "\/images\/sky_web.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sky_web2_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 611500,
+		"inputAbbreviatedPath": "\/images\/sky_web2_.png",
+		"outputAbbreviatedPath": "\/images\/sky_web2_.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sky_web_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 645601,
+		"inputAbbreviatedPath": "\/images\/sky_web_.png",
+		"outputAbbreviatedPath": "\/images\/sky_web_.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sky_web_lighter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.8844e+06,
+		"inputAbbreviatedPath": "\/images\/sky_web_lighter.png",
+		"outputAbbreviatedPath": "\/images\/sky_web_lighter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sky_web_new.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.00973e+06,
+		"inputAbbreviatedPath": "\/images\/sky_web_new.png",
+		"outputAbbreviatedPath": "\/images\/sky_web_new.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sky_web_new_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 856572,
+		"inputAbbreviatedPath": "\/images\/sky_web_new_.png",
+		"outputAbbreviatedPath": "\/images\/sky_web_new_.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -230,6 +307,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/star1-compressor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4162,
+		"inputAbbreviatedPath": "\/images\/star1-compressor.png",
+		"outputAbbreviatedPath": "\/images\/star1-compressor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/star1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -237,6 +325,17 @@
 		"initialSize": 19187,
 		"inputAbbreviatedPath": "\/images\/star1.png",
 		"outputAbbreviatedPath": "\/images\/star1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/star2-compressor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4271,
+		"inputAbbreviatedPath": "\/images\/star2-compressor.png",
+		"outputAbbreviatedPath": "\/images\/star2-compressor.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -252,6 +351,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/star3-compressor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4490,
+		"inputAbbreviatedPath": "\/images\/star3-compressor.png",
+		"outputAbbreviatedPath": "\/images\/star3-compressor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/star3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -259,6 +369,17 @@
 		"initialSize": 33958,
 		"inputAbbreviatedPath": "\/images\/star3.png",
 		"outputAbbreviatedPath": "\/images\/star3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/star4-compressor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4361,
+		"inputAbbreviatedPath": "\/images\/star4-compressor.png",
+		"outputAbbreviatedPath": "\/images\/star4-compressor.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
