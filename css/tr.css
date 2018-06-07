@@ -81,17 +81,17 @@
     top: 1%;
     width: 100vw;
     height: 100vh;
-    font-size: .7em; }
+    font-size: .9em; }
     @media (min-height: 500px) {
       .nav .nav-content {
-        font-size: .85em; } }
+        font-size: .95em; } }
     @media (min-height: 615px) {
       .nav .nav-content {
-        font-size: .95em; } }
+        font-size: 1em; } }
     @media (min-width: 768px) {
       .nav .nav-content {
         height: 50vh;
-        font-size: 1em; } }
+        font-size: 1.4em; } }
     @media (min-height: 800px) {
       .nav .nav-content {
         top: 25%; } }

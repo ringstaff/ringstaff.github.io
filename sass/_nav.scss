@@ -39,18 +39,18 @@ $textMuted: #eed;
     top: 1%;
     width: 100vw;
     height: 100vh;
-    font-size: .7em;
+    font-size: .9em;
 
     @media(min-height: 500px) {
-      font-size: .85em;
+      font-size: .95em;
     }
 
     @media(min-height: 615px) {
-      font-size: .95em;
+      font-size: 1em;
     }
     @media(min-width: 768px) {
       height: 50vh;
-      font-size: 1em;
+      font-size: 1.4em;
     }
 
     // @media(min-height: 600px) {
