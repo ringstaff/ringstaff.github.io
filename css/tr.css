@@ -90,6 +90,13 @@
   background-color: rgba(0, 0, 0, 0.85); */
   /* background-image: linear-gradient(to bottom left, rgba(255,255,255,0) 20%, rgba(255,55,25,1)); */
   background-image: linear-gradient(to bottom left, rgba(255,255,255,0) 20%, rgba(255,55,25,1)), url(https://www.nasa.gov/sites/default/files/thumbnails/image/potw2036a.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  -webkit-animation: background 20s ease-in-out infinite;
+  animation: background 20s ease-in-out infinite;
+
   overflow-x: hidden;
   transition: opacity 0.5s ease;
 }
@@ -230,8 +237,9 @@ html {
   -webkit-animation: ts 20s ease-in-out infinite;
 }
 .ss-text {
+  font-size: larger;
   line-height: 1em;
-  -webkit-animation: ts 20s ease-in-out infinite;
+  -webkit-animation: ts 2s ease-in-out infinite;
 }
 @media (min-width: 400px) {
   .lead-text {
