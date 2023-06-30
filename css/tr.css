@@ -155,11 +155,11 @@
 }
 .nav .contact {
   font-size: 1.6em;
-  text-align: center;
+  /* text-align: center; */
   padding: 0;
-  position: absolute;
-  bottom: 50px;
-  left: 0;
+  /* position: absolute; */
+  /* bottom: 50px; */
+  /* left: 0; */
 }
 @media (min-width: 768px) {
   .nav .contact {
