@@ -86,8 +86,10 @@
   z-index: 101;
   top: 0;
   left: 0;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.85);
+  /* background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.85); */
+  /* background-image: linear-gradient(to bottom left, rgba(255,255,255,0) 20%, rgba(255,55,25,1)); */
+  background-image: linear-gradient(to bottom left, rgba(255,255,255,0) 20%, rgba(255,55,25,1)), url(https://www.nasa.gov/sites/default/files/thumbnails/image/potw2036a.jpg);
   overflow-x: hidden;
   transition: opacity 0.5s ease;
 }
@@ -224,6 +226,10 @@ html {
   bottom: 10%;
   left: 5%;
   text-align: left;
+  line-height: 1em;
+  -webkit-animation: ts 20s ease-in-out infinite;
+}
+.ss-text {
   line-height: 1em;
   -webkit-animation: ts 20s ease-in-out infinite;
 }
