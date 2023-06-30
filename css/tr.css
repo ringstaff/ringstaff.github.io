@@ -256,18 +256,18 @@ html {
   }
 }
 .lead-text .lead {
-  font-family: "Kollektif", sans-serif;
+  /* font-family: "Kollektif", sans-serif; */
   letter-spacing: 14px;
-  font-size: 3.4em;
+  font-size: 3em;
 }
 @media (min-width: 400px) {
   .lead-text .lead {
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 @media (min-width: 768px) {
   .lead-text .lead {
-    font-size: 6em;
+    font-size: 3em;
   }
 }
 .lead-text .normy {
