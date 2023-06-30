@@ -36,7 +36,9 @@ html {
 
 .bg-image {
   height: 100vh;
-  background-image: url(/images/bg_this_.png);
+  // background-image: linear-gradient(to top right, rgba(255,255,255,0) 20%, rgba(255,255,255,1)),url(https://www.nasa.gov/sites/default/files/thumbnails/image/potw2036a.jpg);
+  background-image: linear-gradient(to top right, rgba(255,255,255,0) 20%, rgba(255,55,25,1));
+  // background-image: url(/images/bg_this_.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
