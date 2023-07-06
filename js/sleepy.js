@@ -60,7 +60,7 @@ $(document).ready(function(){
       autoplaySpeed: 200,
       pauseOnFocus: false,
       pauseOnHover: false,
-      responsive: false
+      responsive: true
     });
   }
 
