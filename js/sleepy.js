@@ -70,7 +70,7 @@ $(document).ready(function(){
   if(isApp === "true") {
     $('.bg-img').hide();
     $('.header-tohide').hide();
-    $('.fader').hide();
+    // $('.fader').hide();
     $('.sound-cloud').hide();
   } else {
     // Closes the Responsive Menu on Menu Item Click
@@ -82,7 +82,7 @@ $(document).ready(function(){
 
     $('.navbar-toggler .fa-times').css('display', 'none');
 
-    slickIt();
+    // slickIt();
 
   }
 
